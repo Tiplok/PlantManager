@@ -53,19 +53,19 @@ Dans le but de tester l'application, on a :
 
 Chaque fonctionnalité est décrite à partir de l'écran principal.
 
-- _Créer une nouvelle plante :_  
+- _Créer une nouvelle plante_  
 Appuyez le bouton + en haut à droite, remplissez le nom de la plante et le nombre de jours entre chaque arrosage puis appuyez sur le bouton VALIDER.
 
-- _Modifier une plante :_  
+- _Modifier une plante_  
 Appuyez simplement sur une des plantes de la liste, modifiez le ou les champ(s) voulu(s) et validez les modifications en appuyant sur le bouton MODIFIER.
 
-- _Supprimer une plante :_   
+- _Supprimer une plante_   
 Appuyez simplement sur une des plantes de la liste puis sur le bouton SUPPRIMER, appuyez sur OK si vous êtes sûr de votre choix.
 
-- _Arroser une plante :_  
+- _Arroser une plante_  
 Appuyez longuement sur une des plantes de la liste, le fond de la plante devient vert et un message apparaît pour vous confirmer l'arrosage de la plante.
 
-- _Utilisation des fixtures :_  
+- _Utilisation des fixtures_  
 Appuyez sur le bouton en forme de trois points verticaux en haut à droite, vous pouvez ensuite ajouter de nouvelles plantes dans la base de données, avancer les jours pour simuler l'avancement du temps et supprimer les plantes de la base de données.
 
 
