@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Plantmanager by Tiplok</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Plantmanager</h1>
+        <h2>Application android dévéloppée dans le cadre du cours &#39;TAC - Android&#39; du Master Informatique E-services à l&#39;Université Lille 1. Permet la gestion de l&#39;arrosage de plantes.</h2>
+        <a href="https://github.com/Tiplok/PlantManager" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="plantmanager" class="anchor" href="#plantmanager" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PlantManager</h1>
+
+<p>Application Android - PlantManager - Développée dans le cadre du cours 'TAC - Android' du Master Informatique E-services à l'Université Lille 1</p>
+
+<h2>
+<a id="configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h2>
+
+<p>Le projet a été développé sous Android Studio 2.2.2 avec l'API minimum 14 (Android 4.0 Ice Cream Sandwich).  </p>
+
+<ul>
+<li>Le projet AndroidStudio est le dossier PlantManager.<br>
+</li>
+<li>Le fichier APK signé de l'application se trouve dans le dossier apk.</li>
+</ul>
+
+<h3>
+<a id="mode-demploi-de-lapplication" class="anchor" href="#mode-demploi-de-lapplication" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mode d'emploi de l'application</h3>
+
+<h4>
+<a id="description-par-écran" class="anchor" href="#description-par-%C3%A9cran" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Description par écran</h4>
+
+<p align="center">Ecran principal</p>
+
+<p align="center"><img src="http://image.prntscr.com/image/cfba2cd75b70404696825f5e07d29f89.png" alt="Image de l'ecran principal introuvable"></p>
+
+<p>En haut à droite, on retrouve deux menus :  </p>
+
+<ul>
+<li>Celui ayant la forme de + permet d'aller sur l'écran d'ajout d'une nouvelle plante.<br>
+</li>
+<li>Celui fait de trois petits points permet d'obtenir une liste de deux autres menus : un pour les fixtures et un pour quitter l'application.<br>
+</li>
+</ul>
+
+<p>Au centre, on retrouve la liste des plantes :  </p>
+
+<ul>
+<li>Pour chaque plante, on retrouve son nom, entre parenthèse le nombre de jour(s) avant d'avoir besoin d'être arrosé (si ce nombre est négatif, il s'agit du nombre de jours de retard de l'arrosage)<br>
+</li>
+<li>La couleur de fond est liée à quand la plante doit être arrosée : rouge si en retard, orange si c'est la veille ou le jour même, vert sinon<br>
+</li>
+</ul>
+
+<hr>
+
+<p align="center">Ecran d'ajout d'une plante</p>
+
+<p align="center"><img src="http://image.prntscr.com/image/d3a142a179b644e0a59a70ab4c7544be.png" alt="Image de l'ecran d'ajout d'une plante introuvable"></p>
+
+<p>On a deux champs permettant d'indiquer le nom de la plante puis le nombre de jours entre chaque arrosage, on peut ensuite valider sa création ou l'annuler pour revenir sur l'écran principal.</p>
+
+<hr>
+
+<p align="center">Ecran de modification d'une plante</p>
+
+<p align="center"><img src="http://image.prntscr.com/image/568b9a53d1664b1daa05759fdacb1743.png" alt="Image de l'ecran de modification d'une plane introuvable"></p>
+
+<p>On a deux champs permettant de modifier le nom de la plante et le nombre de jours entre chaque arrosage, on peut ensuite valider sa modification ou l'annuler, il est aussi possible de la supprimer, il faudra alors confirmer ce choix.</p>
+
+<hr>
+
+<p align="center">Ecran des fixtures</p>
+
+<p align="center"><img src="http://image.prntscr.com/image/b3c4c52be782411f8a6a400f682dbff3.png" alt="Image de l'ecran des fixtures introuvable"></p>
+
+<p>Dans le but de tester l'application, on a :  </p>
+
+<ul>
+<li>Un bouton qui permet d'alimenter la base de données de 12 plantes différentes<br>
+</li>
+<li>Un bouton pour faire avancer le nombre de jours d'un nombre défini, ce qui se répercute sur le nombre de jours avant le prochain arrosage des plantes existantes<br>
+</li>
+<li>Un bouton pour supprimer toutes les plantes de la base de données<br>
+</li>
+</ul>
+
+<hr>
+
+<h4>
+<a id="utilisation-des-fonctionnalitées" class="anchor" href="#utilisation-des-fonctionnalit%C3%A9es" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Utilisation des fonctionnalitées</h4>
+
+<p>Chaque fonctionnalité est décrite à partir de l'écran principal.</p>
+
+<ul>
+<li><p><em>Créer une nouvelle plante</em><br>
+Appuyez le bouton + en haut à droite, remplissez le nom de la plante et le nombre de jours entre chaque arrosage puis appuyez sur le bouton VALIDER.</p></li>
+<li><p><em>Modifier une plante</em><br>
+Appuyez simplement sur une des plantes de la liste, modifiez le ou les champ(s) voulu(s) et validez les modifications en appuyant sur le bouton MODIFIER.</p></li>
+<li><p><em>Supprimer une plante</em><br>
+Appuyez simplement sur une des plantes de la liste puis sur le bouton SUPPRIMER, appuyez sur OK si vous êtes sûr de votre choix.</p></li>
+<li><p><em>Arroser une plante</em><br>
+Appuyez longuement sur une des plantes de la liste, le fond de la plante devient vert et un message apparaît pour vous confirmer l'arrosage de la plante.</p></li>
+<li><p><em>Utilisation des fixtures</em><br>
+Appuyez sur le bouton en forme de trois points verticaux en haut à droite, vous pouvez ensuite ajouter de nouvelles plantes dans la base de données, avancer les jours pour simuler l'avancement du temps et supprimer les plantes de la base de données.</p></li>
+</ul>
+
+<h3>
+<a id="rapport-technique" class="anchor" href="#rapport-technique" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Rapport technique</h3>
+
+<p>Tout a été fait. 
+Les différentes fonctionnalités spécifiées sont présentes et fonctionnent.<br>
+Un menu est dédié aux fixtures afin de faciliter les tests de l'application.<br>
+L'avancement du temps est fait avec un nombre de jours modifiable plutôt qu'avec la manipulation d'une date.<br>
+Il n'y a aucun bug connu pour le moment.</p>
+
+<p><em>2016 - Nicolas Vasseur</em></p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/Tiplok/PlantManager/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/Tiplok/PlantManager/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/Tiplok/PlantManager"></a> is maintained by <a href="https://github.com/Tiplok">Tiplok</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
