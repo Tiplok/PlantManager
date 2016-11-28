@@ -12,8 +12,8 @@ Le projet a été développé sous Android Studio 2.2.2 avec l'API minimum 14 (Andro
 
 #### Description par écran
 
-Ecran principal  
-![alt tag](http://image.prntscr.com/image/cfba2cd75b70404696825f5e07d29f89.png)
+<p align="center">Ecran principal</p>
+<p align="center"><img src="http://image.prntscr.com/image/cfba2cd75b70404696825f5e07d29f89.png" alt="Image de l'ecran principal introuvable"></p>
 
 En haut à droite, on retrouve deux menus :  
 - Celui ayant la forme de + permet d'aller sur l'écran d'ajout d'une nouvelle plante.  
@@ -24,22 +24,22 @@ Au centre, on retrouve la liste des plantes :
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Ecran d'ajout  
-![alt tag](http://image.prntscr.com/image/d3a142a179b644e0a59a70ab4c7544be.png)
+<p align="center">Ecran d'ajout d'une plante</p>
+<p align="center"><img src="http://image.prntscr.com/image/d3a142a179b644e0a59a70ab4c7544be.png" alt="Image de l'ecran d'ajout d'une plante introuvable"></p>
 
 On a deux champs permettant d'indiquer le nom de la plante puis le nombre de jours entre chaque arrosage, on peut ensuite valider sa création ou l'annuler pour revenir sur l'écran principal.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Ecran de modification  
-![alt tag](http://image.prntscr.com/image/568b9a53d1664b1daa05759fdacb1743.png)
+<p align="center">Ecran de modification d'une plante</p>
+<p align="center"><img src="http://image.prntscr.com/image/568b9a53d1664b1daa05759fdacb1743.png" alt="Image de l'ecran de modification d'une plane introuvable"></p>
 
 On a deux champs permettant de modifier le nom de la plante et le nombre de jours entre chaque arrosage, on peut ensuite valider sa modification ou l'annuler, il est aussi possible de la supprimer, il faudra alors confirmer ce choix.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<p align="center">Ecran des fixtures </p>
-<p align="center"><img src="http://image.prntscr.com/image/b3c4c52be782411f8a6a400f682dbff3.png" alt="Ecran des fixtures introuvable"></p>
+<p align="center">Ecran des fixtures</p>
+<p align="center"><img src="http://image.prntscr.com/image/b3c4c52be782411f8a6a400f682dbff3.png" alt="Image de l'ecran des fixtures introuvable"></p>
 
 Dans le but de tester l'application, on a :  
 - Un bouton qui permet d'alimenter la base de données de 12 plantes différentes  
@@ -52,28 +52,28 @@ Dans le but de tester l'application, on a :
 
 Chaque fonctionnalité est décrite à partir de l'écran principal.
 
-- Créer une nouvelle plante : 
+- _Créer une nouvelle plante :_  
 Appuyez le bouton + en haut à droite, remplissez le nom de la plante et le nombre de jours entre chaque arrosage puis appuyez sur le bouton VALIDER.
 
-- Modifier une plante : 
+- _Modifier une plante :_  
 Appuyez simplement sur une des plantes de la liste, modifiez le ou les champ(s) voulu(s) et validez les modifications en appuyant sur le bouton MODIFIER.
 
-- Supprimer une plante : 
+- _Supprimer une plante :_   
 Appuyez simplement sur une des plantes de la liste puis sur le bouton SUPPRIMER, appuyez sur OK si vous êtes sûr de votre choix.
 
-- Arroser une plante : 
+- _Arroser une plante :_  
 Appuyez longuement sur une des plantes de la liste, le fond de la plante devient vert et un message apparaît pour vous confirmer l'arrosage de la plante.
 
-- Utilisation des fixtures :
+- _Utilisation des fixtures :_  
 Appuyez sur le bouton en forme de trois points verticaux en haut à droite, vous pouvez ensuite ajouter de nouvelles plantes dans la base de données, avancer les jours pour simuler l'avancement du temps et supprimer les plantes de la base de données.
 
 
 ### Rapport technique
 
 Tout a été fait. 
-Les différentes fonctionnalités spécifiées sont présentes et fonctionnent. 
-On a un menu dédié aux fixtures afin de faciliter les tests de l'application. 
-L'avancement du temps est fait avec un nombre de jours fixé plutôt qu'avez la manipulation d'une date.
+Les différentes fonctionnalités spécifiées sont présentes et fonctionnent.  
+Un menu est dédié aux fixtures afin de faciliter les tests de l'application.   
+L'avancement du temps est fait avec un nombre de jours fixé plutôt qu'avez la manipulation d'une date.  
 Il n'y a aucun bug connu pour le moment.
 
 
