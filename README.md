@@ -10,9 +10,9 @@ Le projet a été développé sous Android Studio 2.2.2 avec l'API minimum 14 (Andro
 
 ### Mode d'emploi de l'application
 
-Description par écran :
+#### Description par écran
 
-- Ecran principal
+Ecran principal  
 ![alt tag](http://image.prntscr.com/image/cfba2cd75b70404696825f5e07d29f89.png)
 
 En haut à droite, on retrouve deux menus :  
@@ -22,20 +22,23 @@ Au centre, on retrouve la liste des plantes :
 - Pour chaque plante, on retrouve son nom, entre parenthèse le nombre de jour(s) avant d'avoir besoin d'être arrosé (si ce nombre est négatif, il s'agit du nombre de jours de retard de l'arrosage)  
 - La couleur de fond est liée à quand la plante doit être arrosée : rouge si en retard, orange si c'est la veille ou le jour même, vert sinon  
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- Ecran d'ajout :
+Ecran d'ajout  
 ![alt tag](http://image.prntscr.com/image/d3a142a179b644e0a59a70ab4c7544be.png)
 
 On a deux champs permettant d'indiquer le nom de la plante puis le nombre de jours entre chaque arrosage, on peut ensuite valider sa création ou l'annuler pour revenir sur l'écran principal.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- Ecran de modification :
+Ecran de modification  
 ![alt tag](http://image.prntscr.com/image/568b9a53d1664b1daa05759fdacb1743.png)
 
 On a deux champs permettant de modifier le nom de la plante et le nombre de jours entre chaque arrosage, on peut ensuite valider sa modification ou l'annuler, il est aussi possible de la supprimer, il faudra alors confirmer ce choix.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- Ecran des fixtures :
+Ecran des fixtures  
 ![alt tag](http://image.prntscr.com/image/b3c4c52be782411f8a6a400f682dbff3.png)
 
 Dans le but de tester l'application, on a :  
@@ -43,8 +46,9 @@ Dans le but de tester l'application, on a :
 - Un bouton pour faire avancer le nombre de jours d'un nombre défini, ce qui se répercute sur le nombre de jours avant le prochain arrosage des plantes existantes  
 - Un bouton pour supprimer toutes les plantes de la base de données  
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Utilisation des fonctionnalitées :
+#### Utilisation des fonctionnalitées
 
 Chaque fonctionnalité est décrite à partir de l'écran principal.
 
