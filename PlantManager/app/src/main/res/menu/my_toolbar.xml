@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Elément placé dans l'ActionBar, permet l'écran d'ajout d'une plante -->
+    <item
+        android:id="@+id/action_add_plant"
+        android:icon="@drawable/ic_add_black_48dp"
+        android:title="@string/action_add_plant"
+        app:showAsAction="always"/>
+
+    <!-- Eléments placés dans l'overflow (trois points verticaux) en sous-menu -->
+
+    <!-- Permet d'accèder à l'écran des fixtures -->
+    <item android:id="@+id/action_fixtures"
+        android:title="@string/action_fixtures"
+        app:showAsAction="never"
+        />
+
+    <!-- Permet de quitter l'application -->
+    <item android:id="@+id/action_exit"
+        android:title="@string/action_exit"
+        app:showAsAction="never"/>
+
+</menu>

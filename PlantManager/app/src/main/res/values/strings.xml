@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PlantManager</string>
+    <string name="action_fixtures">Fixtures</string>
+    <string name="action_add_plant">Ajouter une plante</string>
+    <string name="action_exit">Quitter</string>
+    <string name="action_about">A propos</string>
+</resources>
