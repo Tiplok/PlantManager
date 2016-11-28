@@ -39,7 +39,7 @@ On a deux champs permettant de modifier le nom de la plante et le nombre de jour
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <p align="center">Ecran des fixtures </p>
-<p align="center">![alt tag](http://image.prntscr.com/image/b3c4c52be782411f8a6a400f682dbff3.png)</p>
+<p align="center"><img src="http://image.prntscr.com/image/b3c4c52be782411f8a6a400f682dbff3.png" alt="Ecran des fixtures introuvable"></p>
 
 Dans le but de tester l'application, on a :  
 - Un bouton qui permet d'alimenter la base de données de 12 plantes différentes  
