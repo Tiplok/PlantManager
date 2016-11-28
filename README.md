@@ -18,6 +18,7 @@ Le projet a été développé sous Android Studio 2.2.2 avec l'API minimum 14 (Andro
 En haut à droite, on retrouve deux menus :  
 - Celui ayant la forme de + permet d'aller sur l'écran d'ajout d'une nouvelle plante.  
 - Celui fait de trois petits points permet d'obtenir une liste de deux autres menus : un pour les fixtures et un pour quitter l'application.  
+
 Au centre, on retrouve la liste des plantes :  
 - Pour chaque plante, on retrouve son nom, entre parenthèse le nombre de jour(s) avant d'avoir besoin d'être arrosé (si ce nombre est négatif, il s'agit du nombre de jours de retard de l'arrosage)  
 - La couleur de fond est liée à quand la plante doit être arrosée : rouge si en retard, orange si c'est la veille ou le jour même, vert sinon  
@@ -73,7 +74,7 @@ Appuyez sur le bouton en forme de trois points verticaux en haut à droite, vous 
 Tout a été fait. 
 Les différentes fonctionnalités spécifiées sont présentes et fonctionnent.  
 Un menu est dédié aux fixtures afin de faciliter les tests de l'application.   
-L'avancement du temps est fait avec un nombre de jours fixé plutôt qu'avez la manipulation d'une date.  
+L'avancement du temps est fait avec un nombre de jours modifiable plutôt qu'avec la manipulation d'une date.  
 Il n'y a aucun bug connu pour le moment.
 
 
